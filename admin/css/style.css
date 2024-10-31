@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.custom-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-sec {
+  width: 100%;
+}
+
+.plugin-sidebar {
+  margin: 30px auto 10px;
+}
+
+.plugin-sidebar img {
+  width: 100%;
+  height: auto;
+  max-width: 80%;
+}
+
+.plugin-sidebar a:focus {
+  box-shadow: none;
+}
+
+body.toplevel_page_rapidsec #csp_settings table.form-table tr th {
+  width: 160px;
+}
+
+body.toplevel_page_rapidsec #csp_settings table.form-table tr td {
+  padding: 10px 0;
+}
+
+body.toplevel_page_rapidsec #csp_settings table.form-table tr input {
+  line-height: 2;
+  padding: 5px;
+}
+
+body.toplevel_page_rapidsec .main-sec h1 {
+  font-size: 26px !important;
+}
+
+body.toplevel_page_rapidsec .main-sec p {
+  font-size: 15px;
+}
+
+body.toplevel_page_rapidsec .notice {
+  margin: 5px 10px 5px 0;
+}
+
+.btn-flex-sec {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-flex-sec p.submit {
+  margin-left: 20px;
+}
+
+.rapidsec_tokens_table tbody {
+  width: 100%;
+}
+
+.rapidsec_tokens_table tr input {
+  width: 100%;
+}
+
+.rapidsec_configs_main {
+  display: flex;
+}
+
+.rapidsec_panel {
+  background-color: #fff;
+  padding: 0.7em 2em 1em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e5e5e5;
+  margin: 20px 0 0;
+  width: 100%;
+}
+
+.rapidsec_tokens_configs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
+
+.rapidsec_connections_table {
+}
+
+.rapidsec_config_item_text {
+  display: flex;
+  align-items: center;
+  padding-left: 0.5em;
+}
+
+@media (max-width: 960px) {
+  .rapidsec_configs_main {
+    flex-wrap: wrap;
+  }
+
+  .rapidsec_tokens_configs {
+    padding-right: 0;
+  }
+}
